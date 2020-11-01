@@ -54,5 +54,7 @@
   }
   
   .nameHeader {
-      font-size: 42px;
+      font-size: 64px;
+      text-align: center;
+      color: #ddd;
   }
