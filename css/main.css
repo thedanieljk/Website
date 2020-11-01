@@ -57,6 +57,7 @@
       font-size: 84px;
       text-align: center;
       color: #ddd;
+      text-shadow: 2px 2px 0px #000;
   }
   
   .nameSubHeader {
