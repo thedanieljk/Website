@@ -52,3 +52,7 @@
       background-color: rgb(98, 175, 199);
       color: white;
   }
+  
+  .nameHeader {
+      font-size: 42px;
+  }
