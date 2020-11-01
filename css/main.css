@@ -2,6 +2,8 @@ body {
     background-image: url("../images/Morro_swirly_water_crop_16_9_e1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
+    font-family: 'Montserrat';
 }
 
 /* Add a black background color to the top navigation */
