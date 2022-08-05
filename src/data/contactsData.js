@@ -1,5 +1,5 @@
 export const contactsData = {
-    email: 'thedanieljk@gmail.com'
+    email: 'thedanieljk@gmail.com',
 
     sheetAPI: ''
 }
