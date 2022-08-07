@@ -11,6 +11,7 @@
   justify-content: center;
   height: 100%;
   position: relative;
+  background: gray;
 }
 
 .landing--img {
@@ -55,7 +56,7 @@
 .landing--container-right {
   flex: 65%;
   height: 100%;
-  background-color: #eaeaea;
+  background-color: #1366aa;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -166,7 +167,7 @@
     --img-size: 200px;
     left: 50%;
     top: 30%;
-    border: 8px solid #eaeaea;
+    border: 8px solid #1fc1e9;
     transform: translate(-50%, -50%);
   }
   .landing--container-left {
@@ -183,7 +184,7 @@
     flex: initial;
     height: 70%;
     width: 100%;
-    background-color: #eaeaea;
+    background-color: #3de4e4;
     align-items: center;
     justify-content: center;
     padding: 0 2rem;
