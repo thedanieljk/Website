@@ -8,6 +8,8 @@ import { AiOutlineFolder } from "react-icons/ai";
 
 import './Achievement.css'
 
+// validates technical expertise in designing and deploying scalable, highly available, and fault-tolerant systems on AWS
+
 function AchievementCard({id, title, details, date, field, image}) {
 
     const { theme } = useContext(ThemeContext);
