@@ -131,7 +131,7 @@ export const blueThemeDark = {
     tertiary70: '#eaeaeab3',
     tertiary50: '#eaeaea80',
     aboutimg1: blueThemeboy,
-    aboutimg2: blueThemegirl,
+    aboutimg2: blueThemeboy,
     eduimg: eduBlue,
     expimg: expBlue,
     contactsimg: contactsBlue

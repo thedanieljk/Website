@@ -4,10 +4,10 @@ export const achievementData = {
         {
             id : 1,
             title : 'AWS Solutions Architect - Associate [SAA-C03]',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
+            details : 'Validates technical expertise in designing and deploying scalable, highly available, and fault-tolerant systems on AWS',
             date : 'September, 2022',
-            field : 'Cloud Architecture',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            field : 'Cloud',
+            image : 'https://raw.githubusercontent.com/thedanieljk/Website/ba529b0a4c58b88d50abfb157ac506b13ad31642/src/assets/png/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png'
         }		
     ]
 }

@@ -1,6 +1,6 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "My name's Daniel. I'm a software engineer.",
+    title: "About Me",
+    description1: "My name's Daniel and I'm a software engineer born and raised in California.",
     description2: "I push buttons",
     image: 2
 }
