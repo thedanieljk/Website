@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #414c50;
 }
 
 .landing--container {
@@ -10,12 +11,13 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: 100%;
   position: relative;
-  background: darkgray;
+  background: #414c50;
 }
 
 .landing--img {
-  --img-size: 400px;
+  --img-size: 500px;
   position: absolute;
   left: 35%;
   transform: translateX(-50%);
@@ -45,6 +47,7 @@
 
 .landing--social {
   font-size: 35px;
+  justify-content: left;
   margin: 0 1rem;
   transition: transform 0.5s;
 }

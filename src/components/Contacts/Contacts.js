@@ -320,11 +320,11 @@ function Contacts() {
                     </div>
                 </div>
             </div>
-            <img
+            {/* <img
                 src={theme.contactsimg}
                 alt='contacts'
                 className='contacts--img'
-            />
+            /> */}
         </div>
     );
 }

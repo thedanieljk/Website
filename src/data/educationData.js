@@ -4,6 +4,7 @@ export const educationData = [
         institution: 'California Polytechnic State University',
         course: 'B.S Computer Science',
         startYear: '2014',
-        endYear: '2020'
+        endYear: '2020',
+        college: 'College of Engineering'
     }
 ]
