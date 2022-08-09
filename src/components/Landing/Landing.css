@@ -1,5 +1,5 @@
 .landing {
-  /* height: 100vh; */
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +17,7 @@
 }
 
 .landing--img {
-  --img-size: 500px;
+  --img-size: 400px;
   position: absolute;
   left: 35%;
   transform: translateX(-50%);

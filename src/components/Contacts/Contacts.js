@@ -158,7 +158,7 @@ function Contacts() {
             style={{ backgroundColor: theme.secondary }}
         >
             <div className='contacts--container'>
-                <h1 style={{ color: theme.primary }}>Contacts</h1>
+                <h1 style={{ color: theme.primary }}>Contact Me</h1>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
@@ -272,18 +272,6 @@ function Contacts() {
                     </div>
 
                     <div className='contacts-details'>
-                        <a
-                            href={`mailto:${contactsData.email}`}
-                            className='personal-details'
-                        >
-                            <div className={classes.detailsIcon}>
-                                <FiAtSign />
-                            </div>
-                            <p style={{ color: theme.tertiary }}>
-                                {contactsData.email}
-                            </p>
-                        </a>
-
                         <div className='socialmedia-icons'>
                             {socialsData.github && (
                                 <a
@@ -315,16 +303,32 @@ function Contacts() {
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
                             )}
-
+                            {(
+                                <a
+                                    href={`mailto:${contactsData.email}`}
+                                    // target='_blank'
+                                    // rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FiAtSign aria-label='Email' />
+                                </a>
+                            )}
+                                                    {/* <a
+                            href={`mailto:${contactsData.email}`}
+                            className='personal-details'
+                        >
+                            <div className={classes.detailsIcon}>
+                                <FiAtSign />
+                            </div>
+                            <p style={{ color: theme.tertiary }}>
+                                {contactsData.email}
+                            </p> */}
+                        {/* </a> */}
                         </div>
+
                     </div>
                 </div>
             </div>
-            {/* <img
-                src={theme.contactsimg}
-                alt='contacts'
-                className='contacts--img'
-            /> */}
         </div>
     );
 }
