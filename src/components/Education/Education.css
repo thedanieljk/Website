@@ -14,13 +14,9 @@
 
 .education-description {
     width: 100%;
-    /* flex: 0.65; */
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
-    /* justify-content: center;
-    /* margin-left: 7%; */
 }
 
 .education-description > h1{
@@ -37,9 +33,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* align-items:flex-start; */
-    /* justify-content: flex-start; */
-    /* width: 90%; */
     width:  1000px;
     min-width: 400px;
     margin: auto;
@@ -143,7 +136,7 @@
     .education-card {
         padding: 1rem;
         margin-bottom: 1.5rem;
-        height: 130px;
+        height: 400px;
     }
     .educard-img {
         border-radius: 50%;
