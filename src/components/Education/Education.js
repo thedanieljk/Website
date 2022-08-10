@@ -28,9 +28,6 @@ function Education() {
                         />
                     ))}
                 </div>
-                <div className="education-image">
-                    <img src={theme.eduimg} alt=""/>
-                </div>
             </div>
         </div>
     )

@@ -17,24 +17,28 @@
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     justify-content: center;
-    margin-left: 7%;
+    /* margin-left: 7%; */
 }
 
 .education-description > h1{
     font-size: 3.5rem;
     font-family: var(--primaryFont);
     margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
 }
 
 .education-card {
     display: flex;
     flex-direction: row;
-    align-items:flex-start;
-    justify-content: flex-start;
-    width: 90%;
-    height: 140px;
+    /* align-items:flex-start;
+    justify-content: flex-start; */
+    /* width: 90%; */
+    height: 200px;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -43,16 +47,22 @@
 
 .educard-img {
     border-radius: 50%;
-    width: 55px;
-    height: 55px;
+    /* width: 55px;
+    height: 55px; */
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    transform: translateY(50%);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    position: absolute;
 }
 
 .educard-img > img {
-    width: 40px;
+    width: 50%;
+    height: 50%;
 }
 
 .education-details{
