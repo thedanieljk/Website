@@ -63,28 +63,27 @@
 
 .educard-img {
     border-radius: 50%;
-    /* width: 55px;
-    height: 55px; */
-    width: 100px;
-    height: 100px;
-    top: 50%;
-    transform: translateY(-50%);
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-shrink: 0;
-    position: absolute;
+    margin: auto;
+    width: 120px;
+    height: 120px;
 }
 
 .educard-img > img {
     width: 50%;
+    justify-content: center;
+    /* margin: auto; */
     height: 50%;
+    top: 50%;
+    transform: translateY(50%);
 }
 
 .education-details{  
+    margin: auto;
     display: flex;
     flex-direction: column;
-    /* justify-content: right; */
+    justify-content: center;
     margin-left: 0.6rem;
 }
 
@@ -107,19 +106,6 @@
     font-weight: 600;
 }
 
-.education-image {
-    box-sizing: border-box;
-    padding: 1rem;
-    flex: 0.35;
-    margin-top: 1rem;
-    pointer-events: none;
-}
-
-.education-image > img {
-    width: 100%;
-}
-
-
 
 @media (min-width: 992px) and (max-width: 1380px) {
 
@@ -130,9 +116,7 @@
     .education {
         min-height: 100%;
     }
-    .education-image {
-        display: none;
-    }
+
     .education-description {
         flex: 1;
         margin: auto;
