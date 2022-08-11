@@ -151,6 +151,7 @@
         padding: 1rem;
         margin-bottom: 1.5rem;
         height: 360px;
+        flex-direction: column;
     }
     .educard-img {
         border-radius: 50%;
