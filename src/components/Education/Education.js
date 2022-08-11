@@ -20,6 +20,7 @@ function Education() {
                         <EducationCard 
                             key={edu.id}
                             id={edu.id}
+                            degreeType={edu.degreeType}
                             institution={edu.institution}
                             course={edu.course}
                             startYear={edu.startYear}
