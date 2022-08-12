@@ -1,8 +1,8 @@
 export const socialsData = {
-    github: 'https://github.com/',
+    github: 'https://github.com/thedanieljk',
     facebook: 'https://www.facebook.com/',
-    linkedIn: 'https://www.linkedin.com/in',
-    instagram: 'https://www.instagram.com/',
+    linkedIn: 'https://www.linkedin.com/in/daniel-kirkpatrick-a8116718b/',
+    instagram: 'https://www.instagram.com/thedanieljk/',
     codepen: 'https://codepen.io/',
     twitter: 'https://twitter.com/',
     reddit: 'https://www.reddit.com/user/',
