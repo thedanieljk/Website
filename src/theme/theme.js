@@ -13,7 +13,7 @@ export const blueThemeDark = {
     primary80: '#545fc4cc',
     primary50: '#545fc480',
     primary30: '#545fc44d',
-    secondary: '#121212',
+    secondary: '#212121',
     secondary70: '#212121b3',
     secondary50: '#21212180',
     tertiary: '#ffffff',
