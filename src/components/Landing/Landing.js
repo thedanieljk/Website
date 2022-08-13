@@ -69,7 +69,7 @@ function Landing() {
             <div className='landing--container'>
                 <div
                     className='landing--container-left'
-                    style={{ backgroundColor: theme.primary }}
+                    style={{ backgroundColor: theme.primary30}}
                 >
                     <div className='lcl--content'>
                         {socialsData.linkedIn && (
@@ -130,7 +130,7 @@ function Landing() {
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Download CV
+                                        Resume
                                     </Button>
                                 </a>
                             )}
