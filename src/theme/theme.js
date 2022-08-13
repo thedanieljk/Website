@@ -3,16 +3,16 @@ import { eduBlack,eduBlue,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,
     expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
     contactsRed,contactsYellow, blueThemeboy
 } from './images'
-
+// #0784b5
 export const blueThemeDark = {
     type: 'dark',
     // primary: '#545fc4',
-    primary: '#356483',
-    primary400: '#6e76c7',
+    primary: '#0784b5',
+    primary400: '#2F4562',
     primary600: '#3644c9',
     primary80: '#545fc4cc',
     primary50: '#545fc480',
-    primary30: '#545fc44d',
+    primary30: '#2F4562',
     secondary: '#212121',
     secondary70: '#212121b3',
     secondary50: '#21212180',
