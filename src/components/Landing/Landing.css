@@ -62,12 +62,13 @@
   background-color: #1366aa;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
 }
 
 .lcr--content {
   width: 45%;
+  justify-content: center;
   margin-right: 7rem;
   font-family: var(--primaryFont);
   font-style: normal;
