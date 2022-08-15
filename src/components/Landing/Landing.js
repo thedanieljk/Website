@@ -65,6 +65,7 @@ function Landing() {
     const classes = useStyles();
 
     return (
+        <div>
         <div className='landing'>
             <div className='landing--container'>
                 <div
@@ -147,8 +148,11 @@ function Landing() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
+        {/* <hr class="rounded" style={{color: theme.secondary}}></hr> */}
+    </div>
+
     );
 }
 

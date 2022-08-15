@@ -10,7 +10,9 @@
     flex-wrap: wrap;
     flex: auto;
     width: 100%;
-    color: hsla(117, 56%, 49%, 0.702);
+    padding-top: 10px;
+    /* top: -20px; */
+    /* color: hsla(117, 56%, 49%, 0.702); */
 }
 
 .education-description {
@@ -35,7 +37,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     width:  1000px;
-    min-width: 400px;
+    /* min-width: 400px; */
     margin: auto;
     /* height: 200px; */
     flex: auto;
@@ -160,6 +162,7 @@
     .education-card {
         /* padding: 1rem;
         margin-bottom: 1.5rem; */
+        width: 95%;
         display: flex;
         height: 360px;
         flex-direction: column;
