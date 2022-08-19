@@ -1,7 +1,7 @@
 /* eslint-disable */
 import { eduBlack,eduBlue,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,expBlack,expBlue,expGreen,expOrange,
     expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
-    contactsRed,contactsYellow, blueThemeboy
+    contactsRed,contactsYellow, 
 } from './images'
 // #0784b5
 export const blueThemeDark = {
@@ -20,8 +20,8 @@ export const blueThemeDark = {
     tertiary80: '#848884',
     tertiary70: '#848884',
     tertiary50: '#848884',
-    aboutimg1: blueThemeboy,
-    aboutimg2: blueThemeboy,
+    aboutimg1: null,
+    aboutimg2: null,
     eduimg: eduBlue,
     expimg: expBlue,
     contactsimg: contactsBlue
