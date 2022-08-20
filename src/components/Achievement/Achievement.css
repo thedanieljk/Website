@@ -9,7 +9,7 @@
 
 .achievement-body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     /* justify-content: space-evenly;
     flex: 0.4; */
@@ -104,8 +104,14 @@
     font-weight: 400;
 }
 
+.achievecard-details-container {
+    display: flex;
+    flex: 70%;
+}
+
 .achievecard-imgcontainer {
-    width: 23%;
+    width: 30%;
+    display: flex;
 }
 
 .achievecard-imgcontainer > img {
