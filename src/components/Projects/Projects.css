@@ -74,6 +74,11 @@
 
 
 @media screen and (max-width: 992px) {
+
+    .projects--header {
+        margin: auto;
+        text-align: center;
+    }
     .projects--bodyContainer {
         display: flex;
         flex-direction: column;

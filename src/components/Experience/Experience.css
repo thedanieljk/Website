@@ -4,7 +4,7 @@
 
 .experience-body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -12,13 +12,13 @@
 
 .experience-description {
     width: 100%;
-    flex: 0.65;
-    padding: 2rem;
+    /* flex: 0.65; */
+    /* padding: 2rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
 }
 
 .experience-description > h1 {
@@ -30,24 +30,39 @@
 .experience-card {
     display: flex;
     flex-direction: row;
-    align-items:flex-start;
-    justify-content: flex-start;
-    width: 90%;
-    height: 140px;
+    align-items:center;
+    justify-content: center;
+    width: 1000px;
+    /* height: 140px; */
     padding: 1.5rem;
     border-radius: 20px;
-    margin-bottom: 1.5rem;
+    margin: auto;
+    /* margin-bottom: 1.5rem; */
     transition: background-color 200ms ease-in-out;
+}
+
+.expcard-img-container {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.expcard-details-container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .expcard-img {
     border-radius: 50%;
-    width: 55px;
-    height: 55px;
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
 }
 
 .expcard-img > img {
@@ -55,9 +70,9 @@
     pointer-events: none;
 }
 
-.experience-details {
+/* .experience-details {
     margin-left: 0.6rem;
-}
+} */
 
 .experience-details > h6 {
     font-family: var(--primaryFont);
