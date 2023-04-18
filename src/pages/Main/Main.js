@@ -11,7 +11,7 @@ function Main() {
                 <title>{headerData.name}'s' - Portfolio</title>
             </Helmet>
 
-            <Navbar />        
+            {/* <Navbar />         */}
             <Landing />
             <Education />
             <Skills />
