@@ -132,10 +132,10 @@ function Navbar() {
 
     return (
         <div className='navbar'>
-            <div className='navbar--container'>
+            {/* <div className='navbar--container'>
                 <h1>
                 {/* <h1 style={{ color: theme.secondary }}>
-                    {shortname(headerData.name)} */}
+                    {shortname(headerData.name)} }
                 </h1>
 
                 <IoMenuSharp
@@ -143,7 +143,7 @@ function Navbar() {
                     onClick={handleDrawerOpen}
                     aria-label='Menu'
                 />
-            </div>
+            </div> */}
             <Drawer
                 variant='temporary'
                 onClose={(event, reason) => {
