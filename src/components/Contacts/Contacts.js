@@ -157,7 +157,7 @@ function Contacts() {
             id='contacts'
             style={{ backgroundColor: theme.secondary }}
         >
-            <div className='contacts--container'>
+            {/* <div className='contacts--container'>
                 <h1 style={{ color: theme.primary }}>Contact Me</h1>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
@@ -269,7 +269,7 @@ function Contacts() {
                                 message={errMsg}
                             />
                         </Snackbar>
-                    </div>
+                    </div> */}
 
                     <div className='contacts-details'>
                         <div className='socialmedia-icons'>
@@ -328,8 +328,8 @@ function Contacts() {
 
                     </div>
                 </div>
-            </div>
-        </div>
+        //     </div>
+        // </div>
     );
 }
 
