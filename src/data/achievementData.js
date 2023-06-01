@@ -8,7 +8,16 @@ export const achievementData = {
             date : 'September, 2022',
             field : 'Cloud',
             image : 'https://raw.githubusercontent.com/thedanieljk/Website/ba529b0a4c58b88d50abfb157ac506b13ad31642/src/assets/png/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png'
-        }		
+        },
+        {
+            id : 2,
+            title : 'COMPTIA Security+',
+            details : 'Validates cybersecurity knowledge',
+            date : 'September, 2022',
+            field : 'Cybersecurity',
+            image : 'https://raw.githubusercontent.com/thedanieljk/Website/ba529b0a4c58b88d50abfb157ac506b13ad31642/src/assets/png/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png'
+        },
+
     ]
 }
 

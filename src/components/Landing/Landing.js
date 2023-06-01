@@ -131,7 +131,7 @@ function Landing() {
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Resume
+                                        Resumé 
                                     </Button>
                                 </a>
                             )}
