@@ -29,7 +29,7 @@
 }
 
 .achievement-cards {
-    /* padding: 2rem; */
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -43,7 +43,7 @@
 .achievement-card {
     display: flex;
     flex-direction: colunmn; 
-    align-items: flex-start;
+    /* align-items: flex-start; */
     /* justify-content: space-between;
     height: 170px;
     padding: 1.5rem;
