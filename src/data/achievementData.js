@@ -15,7 +15,7 @@ export const achievementData = {
             details : 'CompTIA Security+ is a global certification that validates the baseline skills necessary to perform core security functions and pursue an IT security career.',
             date : 'February 2023',
             field : 'Cybersecurity',
-            image : 'https://raw.githubusercontent.com/thedanieljk/Website/ba529b0a4c58b88d50abfb157ac506b13ad31642/src/assets/png/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png'
+            image : 'https://github.com/thedanieljk/Website/blob/9437ec8b2251cf1103d1dce4c811ae61cab9ebc5/src/assets/png/CompTIA_Security_2Bce.png'
         },
 
     ]
