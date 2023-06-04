@@ -15,7 +15,7 @@ export const achievementData = {
             details : 'CompTIA Security+ is a global certification that validates the baseline skills necessary to perform core security functions and pursue an IT security career.',
             date : 'February 2023',
             field : 'Cybersecurity',
-            image : 'https://github.com/thedanieljk/Website/blob/9437ec8b2251cf1103d1dce4c811ae61cab9ebc5/src/assets/png/CompTIA_Security_2Bce.png'
+            image : 'https://raw.githubusercontent.com/thedanieljk/Website/9437ec8b2251cf1103d1dce4c811ae61cab9ebc5/src/assets/png/CompTIA_Security_2Bce.png'
         },
 
     ]
