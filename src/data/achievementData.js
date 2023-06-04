@@ -7,7 +7,7 @@ export const achievementData = {
             details : 'Validates technical expertise in designing and deploying scalable, highly available, and fault-tolerant systems on Amazon Web Services.',
             date : 'March 2023',
             field : 'Cloud',
-            image : 'https://raw.githubusercontent.com/thedanieljk/Website/ba529b0a4c58b88d50abfb157ac506b13ad31642/src/assets/png/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png'
+            image : 'https://raw.githubusercontent.com/thedanieljk/Website/main/src/assets/png/awsSAAimg.png'
         },
         {
             id : 2,
