@@ -1,5 +1,5 @@
 export const achievementData = {
-    bio: "To expand the breadth of my knowledge, I got certifications in areas I felt my degree and experience did not cover.",
+    bio: "To expand the breadth of my knowledge, I obtained certifications in areas I felt my degree and experience did not cover.",
     achievements : [
         {
             id : 1,
