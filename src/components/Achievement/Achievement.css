@@ -36,7 +36,7 @@
     align-items: center;
     justify-content: center;
     /* margin-left: 5%; */
-    width:  60%;
+    width:  65%;
     /* flex: 0.6; */
 }
 
@@ -45,7 +45,7 @@
     flex-direction: colunmn; 
     /* align-items: flex-start; */
     /* justify-content: space-between; */
-    height: 170px;
+    min-height: 170px;
     padding: 1.5rem;
     border-radius: 20px; 
     margin-bottom: 1.5rem;
