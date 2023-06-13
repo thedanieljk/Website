@@ -38,9 +38,9 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear, description,
                     <div className="experience-details">
                         <h6 style={{color: theme.primary}}>{startYear}-{endYear}</h6>
                         <h4 style={{color: theme.tertiary}}>{jobtitle}</h4>
-                        <h5 style={{color: theme.tertiary80}}>{company}</h5>
-                        <h5 style={{color: theme.tertiary80}}>{description}</h5>
-                        <h5 style={{color: theme.tertiary80}}>{skills}</h5>
+                        <h5 style={{color: theme.tertiary}}>{company}</h5>
+                        <h6 style={{color: theme.tertiary80}}>{description}</h6>
+                        <h6 style={{color: theme.tertiary80}}>{skills}</h6>
 
                     </div>
                 </div>
