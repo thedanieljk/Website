@@ -9,7 +9,7 @@ import expImgBlack from '../../assets/svg/experience/expImgBlack.svg'
 
 import './Experience.css'
 
-function ExperienceCard({id, company, jobtitle, startYear, endYear}) {
+function ExperienceCard({id, company, jobtitle, startYear, endYear, description, skills}) {
 
     const { theme } = useContext(ThemeContext);
 
@@ -39,6 +39,9 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear}) {
                         <h6 style={{color: theme.primary}}>{startYear}-{endYear}</h6>
                         <h4 style={{color: theme.tertiary}}>{jobtitle}</h4>
                         <h5 style={{color: theme.tertiary80}}>{company}</h5>
+                        <h5 style={{color: theme.tertiary80}}>{description}</h5>
+                        <h5 style={{color: theme.tertiary80}}>{skills}</h5>
+
                     </div>
                 </div>
 
