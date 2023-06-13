@@ -5,7 +5,7 @@ export const experienceData = [
         jobtitle: 'Software Engineer',
         startYear: '2018',
         endYear: '2021',
-        description: 'Full stack web development, AR/VR app, API, bug fixing in large codebase',
+        description: 'Full stack web development, AR/VR app development, RESTful API development',
         skills:'Java, Javascript, Python, C#'
     }
 ]
